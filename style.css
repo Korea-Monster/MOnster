@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Yeon+Sung&display=swap');
+span{font-family: 'Ma Shan Zheng', cursive;}
+
+body{background-color: #D3BC8E;
+}
+
+#wrap{border:1px solid #000;
+  width: 1536px;
+  margin: auto;
+  background-color: #D3BC8E;
+}
+
+
+/*NAVIGATION*/
+.logo{
+  color: #6C3900;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  float: left;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 6vh;
+  background-color: #D3BC8E
+  position: relative;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.nav-links li{
+  list-style: none;
+  font-family: 'Ma Shan Zheng', cursive;
+font-family: 'Yeon Sung', cursive;
+}
+
+.nav-links a{
+  color: #6C3900;
+  text-decoration: none;
+  letter-spacing: 4px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.burger{
+  display: none;
+  cursor: pointer;
+}
+
+.burger div{
+  width:25px;
+  height: 3px;
+  background-color: #6C3900;
+  margin: 5px;
+}
+
+/*MOBILE*/
+@media screen and (max-width:1540px) {
+  .nav-links{
+    width: 70%;
+  }
+  #wrap{ width : 100%;}
+}
+
+@media screen and (max-width:1124px) {
+  body{
+    overflow-x: hidden;
+  }
+  .nav-links{
+    position: absolute;
+    right: 0px;
+    height: 90vh;
+    top: 7vh;
+    background-color: #D3BC8E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    margin-top: 20px;
+    z-index: 2;
+  }
+
+  .burger{
+    display: block;
+  }
+
+
+}
+
+.nav-active{
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+  form{
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+
+/*SLIDER IMAG*/
+header {
+       width: 100%;
+       padding: 0;
+       margin: 0px;}
+
+       #slider-wrapper {
+         width: 100%;
+         height: 600px;
+         margin: 50px auto;
+         position: relative;
+         margin-bottom: 0px;
+         background: #DFCEAD;
+         overflow: hidden;
+       }
+
+       #s1 {
+         padding: 6px;
+         background: #ffff;
+         position: absolute;
+         left: 52%;
+         bottom: 25px;
+         margin-left: -36px;
+         border-radius: 20px;
+         opacity: 0.3;
+         cursor: pointer;
+         z-index: 999;
+       }
+
+       #s2 {
+         padding: 6px;
+         background: #ffff;
+         position: absolute;
+         left: 52%;
+         bottom: 25px;
+         margin-left: -12px;
+         border-radius: 20px;
+         opacity: 0.3;
+         cursor: pointer;
+         z-index: 999;
+       }
+
+       #s3 {
+         padding: 6px;
+         background: #ffff;
+         position: absolute;
+         left: 52%;
+         bottom: 25px;
+         margin-left: 12px;
+         border-radius: 20px;
+         opacity: 0.3;
+         cursor: pointer;
+         z-index: 999;
+       }
+
+
+       #s1:hover,
+       #s2:hover,
+       #s3:hover{
+         opacity: .50;
+       }
+
+       .inner-wrapper {
+         width: 100%;
+         height: 500px;
+         position: absolute;
+         top: 0;
+         left: 0;
+         margin-bottom: 0px;
+         margin-top: 50px;
+         overflow: hidden;
+         z-index: 1;
+       }
+
+       .control {
+         display: none;
+       }
+
+       #Slide1:checked ~ .overflow-wrapper {
+         margin-left: 15%;
+       }
+
+       #Slide2:checked ~ .overflow-wrapper {
+         margin-left: -60%;
+       }
+
+       #Slide3:checked ~ .overflow-wrapper {
+         margin-left: -132%;
+       }
+
+       #Slide1:checked + #s1 {
+         opacity: 1;
+       }
+
+       #Slide2:checked + #s2 {
+         opacity: 1;
+       }
+
+       #Slide3:checked + #s3 {
+         opacity: 1;
+       }
+
+
+       .overflow-wrapper {
+         width: 333%;
+         height: 100%;
+         position: absolute;
+         top: 0;
+         left: 0;
+         overflow-y: hidden;
+         z-index: 1;
+         -webkit-transition: all 0.5s ease-in-out;
+         -moz-transition: all 0.5s ease-in-out;
+         -o-transition: all 0.5s ease-in-out;
+         transition: all 0.5s ease-in-out;
+       }
+
+       .slide img {
+         width: 20%;
+         float: left;
+         margin: 50px;
+         box-shadow: 0px 10px 15px #BCAD91;
+       }
+
+
+
+
+.text-center {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 100px;
+  font-family: 'Ma Shan Zheng', cursive;
+  font-family: 'Yeon Sung', cursive;
+  }
+
+
+/*MONSTE AND EFFECT*/
+.img-box1{
+  margin-left: 13%;
+  margin-top: 150px;
+}
+.img-box2{
+  margin-left: 13%;
+  margin-top: 10px;
+}
+ .container{
+   display: inline-block;
+   transition: all .1s ease;
+   margin:40px;
+   box-shadow: 0px 10px 10px #BCAD91;
+ }
+.container {
+  position: relative;
+  width: 11%;
+}
+
+.image {
+  display: block;
+  width: 158px;
+  height: 158px;
+  padding: 0px;
+}
+
+.overlay {
+  position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #DFCEAD;
+    overflow: hidden;
+    width: 158px;
+    height: 0;
+    transition: .5s ease;
+    opacity: 90%
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: #3D2E0B;
+  font-size: 22px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Ma Shan Zheng', cursive;
+  font-family: 'Yeon Sung', cursive;
+}
+
+
+/* 1번 괴물 */
+#divHid1{
+  margin-top:200px;
+  box-shadow: 10 10 10 #B3A078;
+}
+.content-img-1{
+  width: 100%;
+  display: block;
+  float:left;
+  text-align: center;
+  position: relative;
+}
+.img-bar{
+  width: 600px;
+  height:90px;
+  font-size: 43px;
+  background-color: #DFCEAD;
+  margin-left: 30%;
+  margin-top: -50px;
+  position: relative;
+  font-family: 'Ma Shan Zheng', cursive;
+  font-family: 'Yeon Sung', cursive;
+  line-height: 88px;
+  box-shadow: 0px 10px 10px #BCAD91;
+}
+
+
+/*CONTENT*/
+article{ border: 1px solid black;
+  height:800px;
+
+}
+
+
+
+/*FOOTER LINK*/
+footer{ height:100px;
+        background-color: #AA8F58;
+        margin-top: 150px;
+}
+
+.call-emali{ float : left;
+  padding: 15px;
+
+}
+
+.link{float : right;
+  padding: 15px;
+}
