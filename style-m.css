@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Yeon+Sung&display=swap');
+
+body{
+ background-color: #D3BC8E;
+}
+
+#wrap{
+  width: 1500px;
+    margin: auto;
+    margin-top:0;
+
+}
+
+
+.main-p{ border: 1px solid black;
+  width: auto;
+  height: 1000px;
+  margin:0;
+  background-image: url("./pic/main-m.png");
+}
+
+h1{
+height: 200px;
+  font-size: 120px;
+  margin-left: 520px;
+  margin-top: 280px;
+  color: #663C0C;
+}
+.moon{
+height: 200px;
+  margin-left: 230px;
+  margin-top: -400px;
+}
+
+/*ANIMATION*/
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,150px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,150px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+
+/*2번째박스*/
+.sub-p1{border:1px solid black;
+  width: auto;
+  height: 830px;
+  background-image: url("./pic/sub2.gif");
+}
+
+.content-box1{border:1px solid black;
+  width: 500px;
+  height: 300px;
+  float:left;
+  margin-top: 200px;
+}
+.content-box2{border:1px solid black;
+  width: 500px;
+  height: 300px;
+  float: right;
+  margin-top: 400px;
+}
+
+/*3번째박스*/
+.sub-p2{border:1px solid black;
+  width: auto;
+  height: 830px;
+  background-image: url("./pic/Main/ .gif");
+}
+.content-box3{border:1px solid black;
+  width: 500px;
+  height: 300px;
+  float: left;
+  margin-top: 200px;
+}
+.content-box4{border:1px solid black;
+  width: 500px;
+  height: 300px;
+  float: right;
+  margin-top: 400px;
+}
+
+/*4번째박스*/
+.sub-p3{border:1px solid black;
+  width: auto;
+  height: 830px;
+  background-image: url("./pic/Main/ .gif");
+}
+.content-box5{border:1px solid black;
+  width: 400px;
+  height: 200px;
+  float: left;
+  margin-top: 100px;
+}
+.content-box6{border:1px solid black;
+  width: 400px;
+  height: 200px;
+  float: right;
+  margin-top: 200px;
+}
+
+
+/*FOOTER LINK*/
+.foot{border:1px solid black;
+  width: auto;
+  height: 100px;
+}
+
+footer{ height:100px;
+        background-color: #AA8F58;;
+}
+
+
+.link{float : right;
+  padding: 15px;
+}
