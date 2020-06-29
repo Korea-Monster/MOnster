@@ -29,7 +29,11 @@
     </nav>
 
      <script src="app.js"></script>
-
+     <div class="roof"><img src="./pic/roof.png" ></div>
+     <div class="horong1"><img src="./pic/horong1.png" ></div>
+     <div class="horong2"><img src="./pic/horong1.png" ></div>
+     <span class="light1"></span>
+     <span class="light2"></span>
      <div class="text-center">동물형<span>(動物)</span></div>
 
    <header>
@@ -46,8 +50,8 @@
 
 
            <div class="overflow-wrapper">
-             <div class="slide"><img src="./pic/m-1.png"></div>
-             <div class="slide"><img src="./pic/m-2.png"></div>
+             <div class="slide"><img src="./pic/m-1.png" onclick="fnTest3('divHid1')"></div>
+             <div class="slide"><img src="./pic/m-2.png" onclick="fnTest2('divHid1')"></div>
              <div class="slide"><img src="./pic/m-3.png"></div>
            </div>
          </div>
@@ -59,31 +63,31 @@
       <div class="img-box1">
         <div class="container">
            <img src="./Pic/2.png" class="image">
-              <div class="overlay" onclick="javascript:fnTest1('divHid1')" >
+              <div class="overlay" onclick="fnTest1('divHid1')" >
                 <div class="text">삼목구<br><span>三目狗</span></div>
               </div>
         </div>
         <div class="container">
            <img src="./Pic/3.png" class="image" >
-              <div class="overlay" onclick="javascript:fnTest1('divHid2')" >
+              <div class="overlay" onclick="fnTest2('divHid1')" >
                 <div class="text">장산범<br><span>臥虎</span></div>
               </div>
         </div>
         <div class="container">
            <img src="./Pic/4.png"  class="image">
-              <div class="overlay" onclick="javascript:fnTest1('divHid3')" >
+              <div class="overlay" onclick="fnTest3('divHid1')" >
                 <div class="text">불가사리<br><span>不可殺</span></div>
               </div>
         </div>
         <div class="container">
            <img src="./Pic/5.png" class="image">
-              <div class="overlay" onclick="javascript:fnTest1('divHid4')" >
+              <div class="overlay" onclick="fnTest4('divHid1')" >
                 <div class="text"> <br><span> </span></div>
               </div>
         </div>
         <div class="container">
            <img src="./Pic/6.png" class="image">
-              <div class="overlay" onclick="javascript:fnTest1('divHid5')" >
+              <div class="overlay" onclick="fnTest5('divHid1')" >
                 <div class="text"> <br><span> </span></div>
               </div>
         </div>
@@ -92,103 +96,43 @@
         <div class="img-box2">
         <div class="container">
            <img src="./Pic/7.png" class="image">
-              <div class="overlay" onclick="javascript:fnTest1('divHid6')" >
+              <div class="overlay" onclick="fnTest6('divHid1')" >
                 <div class="text"> <br><span> </span></div>
               </div>
         </div>
 
           <div class="container">
              <img src="./Pic/8.png"  class="image">
-                <div class="overlay" onclick="javascript:fnTest1('divHid7')" >
+                <div class="overlay" onclick="fnTest7('divHid1')" >
                   <div class="text"> <br><span> </span></div>
                 </div>
           </div>
           <div class="container">
              <img src="./Pic/9.png" class="image">
-                <div class="overlay" onclick="javascript:fnTest1('divHid8')" >
+                <div class="overlay" onclick="fnTest8('divHid1')" >
                   <div class="text"> <br><span> </span></div>
                 </div>
           </div>
           <div class="container">
              <img src="./Pic/10.png" class="image">
-                <div class="overlay" onclick="javascript:fnTest1('divHid9')" >
+                <div class="overlay" onclick="fnTest9('divHid1')" >
                   <div class="text"> <br><span> </span></div>
                 </div>
           </div>
           <div class="container">
              <img src="./Pic/1.png" class="image">
-                <div class="overlay" onclick="javascript:fnTest1('divHid10')" >
+                <div class="overlay" onclick="fnTest10('divHid1')" >
                   <div class="text"> <br><span> </span></div>
                 </div>
           </div>
 </div>
+
     </aside>
-
-  <!--1번 괴물-->
-    <div id="divHid1" style="display:none">
-      <article>
-
-      <div class="content-img-1">
-        <img src="./pic/b-2.png" >
-        <div class="img-bar">삼목구<span>(三目狗)</span></div>
-      </div>
-      <div class="content-book-1">
-        <p>삼목구는 눈이 3개 달린 강아지로 주인에게 충성스럼고 재앙을 물리치는 힘을 가지고 있습니다.
-        삼목구의 본래 모습은 저스으이 삼목대왕으로, 죄를 짓고 인간세계에 귀양을 온 신 입니다.</p>
-        <P>삼목구는 한국 민속 문학사전중 『해인산』에 "신라 합천에 사는 이거인(李居仁)은 성품 좋은 이서(里胥)로 눈이 셋 달린 강아지[三目狗]를 주워 애지중지 키운다. "
-        </P>
-      </div>
-      <div class="content-grade-1">
-        <img src="" >위험도랑 표시하는거
-      </div>
-      <div class="content-veido-1">
-        <vedio src="" >된다면 유튜브넣어주세용가리
-      </div>
-
-      </article>
-    </div>
-
-
-    <!--2번 괴물-->
-      <div id="divHid2" style="display:none">
-        <article>
-
-        <div class="content-img">
-          <img src="" >해당 괴물 사진ㅇㅇ
-        </div>
-        <div class="content-book">
-          <p>설명과 전해지는 괴담</p>
-        </div>
-        <div class="content-grade">
-          <img src="" >위험도랑 표시하는거
-        </div>
-        <div class="content-veido">
-          <vedio src="" >된다면 유튜브넣어주세용가리
-        </div>
-
-        </article>
-      </div>
-
-      <!--3번 괴물-->
-        <div id="divHid3" style="display:none">
-          <article>
-
-          <div class="content-img">
-            <img src="" >해당 괴물 사진
-          </div>
-          <div class="content-book">
-            <p>설명과 전해지는ㄴㄴ 괴담</p>
-          </div>
-          <div class="content-grade">
-            <img src="" >위험도랑 표시하는거
-          </div>
-          <div class="content-veido">
-            <vedio src="" >된다면 유튜브넣어주세용가리
-          </div>
-
-          </article>
-        </div>
-
+    <article>
+      <div id="divHid1" style="display:none">
+        <iframe src="" width="100%" height="1000"id="iframe_s" frameborder="0" framepacing="0" marginheight="0" scrolling="0" vspace="0"></iframe>
+      <div>
+    </article>
 
     <footer>
 
