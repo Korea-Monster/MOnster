@@ -2,11 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Yeon+Sung&display=swap');
 span{font-family: 'Ma Shan Zheng', cursive;}
 
-body{background-color: #D3BC8E;
+body{background-color: #7B6C4D;
+  background-image: url("rain.gif");
+
 }
 
-#wrap{border:1px solid #000;
-  width: 1536px;
+#wrap{
+  width: 1436px;
   margin: auto;
   background-color: #D3BC8E;
 }
@@ -118,6 +120,93 @@ font-family: 'Yeon Sung', cursive;
   }
 }
 
+/*지붕 호롱불 */
+.horong1{
+  float:left;
+  margin-left: -70px;
+  margin-top:100px;
+  width: 150px;
+  height: 220px;
+}
+.horong2{
+  float:right;
+  margin-right: -70px;
+  margin-top:100px;
+  width: 150px;
+  height: 220px;
+}
+
+.roof{
+  width: auto;
+  height: 100px;
+  visibility: visible;
+  margin-left: -270px;
+}
+
+.light1 {
+float:left;
+margin-top:150px;
+width: 150px;
+height: 200px;
+margin-left: -120px;
+position: relative;
+display: inline-block;
+opacity: 0;
+animation: flash .5s ease-out alternate infinite;
+}
+
+.light2 {
+float: right;
+margin-top:150px;
+width: 150px;
+height: 200px;
+margin-right: -170px;
+position: relative;
+display: inline-block;
+opacity: 0;
+animation: flash .5s ease-out alternate infinite;
+}
+
+span.light1:before {
+ position: absolute;
+ left: 0;
+ top: -10%;
+ width: 100%;
+ height: 120%;
+ background: #B66D6B;
+ -webkit-filter: blur(70px);
+         filter: blur(70px);
+ content: "";
+ opacity: 0;
+ -webkit-animation: flash .5s ease-out alternate infinite;
+         animation: flash .5s ease-out alternate infinite;
+}
+span.light2:before {
+ position: absolute;
+ left: 0;
+ top: -10%;
+ width: 100%;
+ height: 120%;
+ background: #B66D6B;
+ -webkit-filter: blur(70px);
+         filter: blur(70px);
+ content: "";
+ opacity: 0;
+ -webkit-animation: flash .5s ease-out alternate infinite;
+         animation: flash .5s ease-out alternate infinite;
+}
+
+@-webkit-keyframes flash {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes flash {
+  to {
+    opacity: 1;
+  }
+}
 
 /*SLIDER IMAG*/
 header {
@@ -251,7 +340,7 @@ header {
   text-align: center;
   font-size: 50px;
   font-weight: bold;
-  margin-top: 100px;
+  margin-top: 200px;
   font-family: 'Ma Shan Zheng', cursive;
   font-family: 'Yeon Sung', cursive;
   }
@@ -316,40 +405,11 @@ header {
 }
 
 
-/* 1번 괴물 */
 #divHid1{
   margin-top:200px;
   box-shadow: 10 10 10 #B3A078;
+  padding: 40px;
 }
-.content-img-1{
-  width: 100%;
-  display: block;
-  float:left;
-  text-align: center;
-  position: relative;
-}
-.img-bar{
-  width: 600px;
-  height:90px;
-  font-size: 43px;
-  background-color: #DFCEAD;
-  margin-left: 30%;
-  margin-top: -50px;
-  position: relative;
-  font-family: 'Ma Shan Zheng', cursive;
-  font-family: 'Yeon Sung', cursive;
-  line-height: 88px;
-  box-shadow: 0px 10px 10px #BCAD91;
-}
-
-
-/*CONTENT*/
-article{ border: 1px solid black;
-  height:800px;
-
-}
-
-
 
 /*FOOTER LINK*/
 footer{ height:100px;
