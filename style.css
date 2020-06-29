@@ -8,7 +8,7 @@ body{background-color: #7B6C4D;
 }
 
 #wrap{
-  width: 1436px;
+  width: 1236px;
   margin: auto;
   background-color: #D3BC8E;
 }
@@ -348,11 +348,11 @@ header {
 
 /*MONSTE AND EFFECT*/
 .img-box1{
-  margin-left: 13%;
+  margin-left: 6%;
   margin-top: 150px;
 }
 .img-box2{
-  margin-left: 13%;
+  margin-left: 6%;
   margin-top: 10px;
 }
  .container{
@@ -406,7 +406,7 @@ header {
 
 
 #divHid1{
-  margin-top:200px;
+  margin-top:100px;
   box-shadow: 10 10 10 #B3A078;
   padding: 40px;
 }
