@@ -13,24 +13,24 @@ body{
 }
 
 
-.main-p{ border: 1px solid black;
+.main-p{border:1px solid  #D3BC8E;
   width: auto;
   height: 1000px;
-  margin:0;
   background-image: url("main-m.png");
 }
 
 h1{
 height: 200px;
-  font-size: 120px;
-  margin-left: 520px;
-  margin-top: 280px;
+  font-size: 140px;
+  margin-left: 480px;
+  margin-top:350px;
   color: #663C0C;
 }
+
 .moon{
 height: 200px;
   margin-left: 230px;
-  margin-top: -400px;
+  margin-top:-400px;
 }
 
 /*ANIMATION*/
@@ -75,61 +75,72 @@ height: 200px;
 
 
 /*2번째박스*/
-.sub-p1{border:1px solid black;
+.sub-p1{
+  width: auto;
+  height: 830px;
+  background-image: url("sub1.gif");
+}
+
+.content-box1{
+  width: 400px;
+  height: 300px;
+  float:left;
+  margin-left: 180px;
+  margin-top: 120px;
+}
+.content-box2{
+  width: 450px;
+  height: 300px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 400px;
+}
+
+p{
+  font-size: 25px;
+  font-weight: bolder;
+  color:#FCECCC;
+}
+
+/*3번째박스*/
+.sub-p2{
   width: auto;
   height: 830px;
   background-image: url("sub2.gif");
 }
-
-.content-box1{border:1px solid black;
-  width: 500px;
-  height: 300px;
-  float:left;
-  margin-top: 200px;
-}
-.content-box2{border:1px solid black;
-  width: 500px;
-  height: 300px;
-  float: right;
-  margin-top: 400px;
-}
-
-/*3번째박스*/
-.sub-p2{border:1px solid black;
-  width: auto;
-  height: 830px;
-  background-image: url(" .gif");
-}
-.content-box3{border:1px solid black;
-  width: 500px;
+.content-box3{
+  width: 300px;
   height: 300px;
   float: left;
   margin-top: 200px;
 }
-.content-box4{border:1px solid black;
-  width: 500px;
+.content-box4{
+  width: 300px;
   height: 300px;
   float: right;
-  margin-top: 400px;
+  margin-right: 500px;
+  margin-top: 520px;
 }
 
 /*4번째박스*/
-.sub-p3{border:1px solid black;
+.sub-p3{
   width: auto;
   height: 830px;
-  background-image: url(" .gif");
+  background-image: url("sub3.gif");
 }
-.content-box5{border:1px solid black;
-  width: 400px;
-  height: 200px;
-  float: left;
-  margin-top: 100px;
-}
-.content-box6{border:1px solid black;
+.content-box5{
   width: 400px;
   height: 200px;
   float: right;
+  margin-right: 100px;
   margin-top: 200px;
+}
+.content-box6{
+  width: 400px;
+  height: 200px;
+  float: left;
+  margin-left: 150px;
+  margin-top: 650px;
 }
 
 
