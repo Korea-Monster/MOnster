@@ -5,6 +5,9 @@ span{font-family: 'Ma Shan Zheng', cursive;}
 body{background-color: #7B6C4D;
   background-image: url("rain.gif");
 
+  width: 1600px;
+  margin: auto;
+
 }
 
 #wrap{
@@ -124,31 +127,31 @@ font-family: 'Yeon Sung', cursive;
 .horong1{
   float:left;
   margin-left: -70px;
-  margin-top:100px;
+  margin-top:-50px;
   width: 150px;
   height: 220px;
 }
 .horong2{
   float:right;
   margin-right: -70px;
-  margin-top:100px;
+  margin-top:-50px;
   width: 150px;
   height: 220px;
 }
 
 .roof{
-  width: auto;
-  height: 100px;
+  width:1621px;
+  height: 228px;
   visibility: visible;
-  margin-left: -270px;
+  margin-left: -190px;
 }
 
 .light1 {
 float:left;
-margin-top:150px;
+margin-top:-40px;
 width: 150px;
 height: 200px;
-margin-left: -120px;
+margin-left: -170px;
 position: relative;
 display: inline-block;
 opacity: 0;
@@ -157,7 +160,7 @@ animation: flash .5s ease-out alternate infinite;
 
 .light2 {
 float: right;
-margin-top:150px;
+margin-top:-40px;
 width: 150px;
 height: 200px;
 margin-right: -170px;
@@ -340,7 +343,7 @@ header {
   text-align: center;
   font-size: 50px;
   font-weight: bold;
-  margin-top: 200px;
+  margin-top: 100px;
   font-family: 'Ma Shan Zheng', cursive;
   font-family: 'Yeon Sung', cursive;
   }
