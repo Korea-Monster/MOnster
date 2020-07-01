@@ -63,16 +63,16 @@ nav {
 body {
 	font-family:"Open Sans", Helvetica, Arial, sans-serif;
 	font-weight:300;
-	font-size: 12px;
+	font-size: 18px;
 	line-height:30px;
 	color:#777;
 }
 
 .back{
   width: 1300px;
-  height: 900px;
+  height: 1280px;
   margin: auto;
-  background-image:url("email2.png");
+  background-image:url("email.png");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -104,7 +104,8 @@ fieldset {
 	margin: 0 0 10px;
 	min-width: 100%;
 	padding: 0;
-	width: 100%;
+	width: 150%;
+	margin-left: -120px;
 }
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="title"], #contact textarea {
@@ -123,7 +124,7 @@ fieldset {
 }
 
 #contact textarea {
-	height:150px;
+	height:300px;
 	max-width:100%;
   resize:none;
 }
