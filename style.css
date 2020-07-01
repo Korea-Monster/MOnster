@@ -81,7 +81,7 @@ font-family: 'Yeon Sung', cursive;
   #wrap{ width : 100%;}
 }
 
-@media screen and (max-width:1124px) {
+@media screen and (max-width:1000px) {
   body{
     overflow-x: hidden;
   }
