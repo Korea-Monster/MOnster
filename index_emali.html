@@ -2,30 +2,54 @@
 <head>
     <meta charset="utf-8">
     <title>contact form</title>
-    <link rel="stylesheet" href="contact-form.css" type="text/css">
+    <link rel="stylesheet" href="contact-email.css">
 </head>
 
 <body>
-  <form action="/my-handling-form-page" method="post">
-    <div>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="user_name">
-    </div>
 
-    <div>
-      <label for="mail">E-mail:</label>
-      <input type="email" id="mail" name="user_email">
-    </div>
+ <div id="wrap">
+  <nav>
+      <div class="logo">
+        <a href="index.html"><img src="logo.png"></a>
+      </div>
 
-    <div>
-      <label for="msg">Message:</label>
-      <textarea id="msg" name="user_message"></textarea>
-    </div>
+      <ul class="nav-links">
+        <li><a href="index_human.html">인간형<span>(人間)</span></a></li>
+        <li><a href="index_animal.html" target="_self">동물형<span>(動物)</span></a></li>
+       <li><a href="index_sin.html">신수<span>(神樹)</span></a></li>
+       <li><a href="index_sub.html">서적<span>(書跡)</span></a></li>
+     </ul>
 
-    <div class="button">
-      <button type="submit">Send your message</button>
-    </div>
-  </form>
+   </nav>
 
+<div class="back">
+  <div class="container">
+    <form id="contact" action="" method="post">
+      <h3>서신</h3><br>
+      <fieldset>
+        <input placeholder="이름" type="text" name="name" tabindex="1" required autofocus>
+      </fieldset>
+
+      <fieldset>
+        <input placeholder="이메일 주소" type="email"  name="mail" tabindex="2" required>
+      </fieldset>
+
+      <fieldset>
+        <input placeholder="제목" type="title"  name="title" tabindex="3" required>
+      </fieldset>
+
+      <fieldset>
+        <textarea placeholder="Type your Message Here...." name="message" tabindex="4" required></textarea>
+      </fieldset>
+
+      <fieldset>
+        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      </fieldset>
+
+    </form>
+</div>
+
+  </div>
+  </div>
 </body>
 </html>
