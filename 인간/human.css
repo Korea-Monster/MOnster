@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Yeon+Sung&display=swap');
+span{font-family: 'Ma Shan Zheng', cursive;}
+
+body{
+  width:97%;
+}
+
+.content-img-1{
+  width: 100%;
+  display: block;
+  float:left;
+  text-align: center;
+  position: relative;
+}
+.img-bar{
+  width: 600px;
+  height:90px;
+  font-size: 43px;
+  background-color: #DFCEAD;
+  margin-left: 23%;
+  margin-top: -50px;
+  position: relative;
+  font-family: 'Ma Shan Zheng', cursive;
+  font-family: 'Yeon Sung', cursive;
+  line-height: 88px;
+  box-shadow: 0px 10px 10px #BCAD91;
+}
+
+.content-book-1{
+display: block;
+float:left;
+text-align: center;
+position: relative;
+width:1010px;
+margin-left: 30px;
+font-size: 25px;
+margin-top: 50px;
+}
+.content-grade-1{
+display: block;
+float:left;
+text-align: center;
+position: relative;
+margin-top: 40px;
+margin-left: -130px;
+}
+
+.boxs{border:1px solid black;
+height: 50px;
+width:800px;
+font-size: 25px;
+margin-left: 270px;
+}
